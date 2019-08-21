@@ -33,7 +33,13 @@ public func configure(
     databases.add(database: database, as: .psql)
     services.register(databases)
     
+    //migration list
     var migrations = MigrationConfig()
+    migrations.add(model: User.self, database: .psql)
     migrations.add(model: Acronym.self, database: .psql)
     services.register(migrations)
+    
+    var commandConfig = CommandConfig.default()
+    commandConfig.useFluentCommands()
+    services.register(commandConfig)
 }
