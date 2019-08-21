@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://til3.vapor.cloud/api/acronyms</string>
+	<string>http://til3.vapor.cloud/api/users/A744887D-D57D-4531-A4E8-808B865EA90A/acronyms</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -17,9 +17,50 @@
 	<key>paramBodyUIChoice</key>
 	<integer>0</integer>
 	<key>parameters</key>
-	<array/>
+	<array>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>name</string>
+			<key>value</key>
+			<string>sam</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>username</string>
+			<key>value</key>
+			<string>sampack</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>userID</string>
+			<key>value</key>
+			<string>A744887D-D57D-4531-A4E8-808B865EA90A</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>short</string>
+			<key>value</key>
+			<string>OMG</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>long</string>
+			<key>value</key>
+			<string>Oh My God</string>
+		</dict>
+	</array>
 	<key>parametersType</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>presentBeforeChallenge</key>
 	<false/>
 	<key>stringEncoding</key>

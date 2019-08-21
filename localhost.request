@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://localhost:8080/api/acronyms/</string>
+	<string>http://localhost:8080/api/acronyms/2/categories/</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -11,7 +11,7 @@
 	<key>headers</key>
 	<array/>
 	<key>httpMethod</key>
-	<string>POST</string>
+	<string>GET</string>
 	<key>jsonpScript</key>
 	<string></string>
 	<key>paramBodyUIChoice</key>
@@ -20,27 +20,35 @@
 	<array>
 		<dict>
 			<key>inUse</key>
-			<true/>
+			<false/>
 			<key>parameter</key>
 			<string>short</string>
 			<key>value</key>
-			<string>OMG</string>
+			<string>BMG</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
-			<true/>
+			<false/>
+			<key>parameter</key>
+			<string>name</string>
+			<key>value</key>
+			<string>Teenager</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
 			<key>parameter</key>
 			<string>long</string>
 			<key>value</key>
-			<string>Oh My God</string>
+			<string>Beyond My Grasp</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
-			<true/>
+			<false/>
 			<key>parameter</key>
 			<string>userID</string>
 			<key>value</key>
-			<string>CB6A42DF-5C53-4DAA-A12D-32D866F83D4F</string>
+			<string>8EA5A5B6-F3A7-400E-97B6-5CF2939D741C</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
