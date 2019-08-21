@@ -1,6 +1,5 @@
 import Vapor 
 import Foundation
-import JavaScriptCore
 import FluentPostgreSQL
 
 final class User: Codable {
