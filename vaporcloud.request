@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://til3.vapor.cloud/api/users/A744887D-D57D-4531-A4E8-808B865EA90A/acronyms</string>
+	<string>http://til3.vapor.cloud/api/acronyms/1/categories/1</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
@@ -11,7 +11,7 @@
 	<key>headers</key>
 	<array/>
 	<key>httpMethod</key>
-	<string>GET</string>
+	<string>POST</string>
 	<key>jsonpScript</key>
 	<string></string>
 	<key>paramBodyUIChoice</key>
@@ -25,6 +25,14 @@
 			<string>name</string>
 			<key>value</key>
 			<string>sam</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>name</string>
+			<key>value</key>
+			<string>Teenager</string>
 		</dict>
 		<dict>
 			<key>inUse</key>
